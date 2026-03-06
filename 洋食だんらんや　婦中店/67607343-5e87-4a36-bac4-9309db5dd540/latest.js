@@ -1,0 +1,9 @@
+// version 1.0.2
+
+(function () {
+  const data = {"@type":"JobPosting","title":"＜洋食屋さんホールスタッフ＞平日ランチタイムのパートさん急募！","@context":"https://schema.org/","workHours":"・10:00～15:00\n・17:00～22:00","baseSalary":{"@type":"MonetaryAmount","value":{"@type":"QuantitativeValue","value":1150,"unitText":"HOUR"},"currency":"JPY","description":"平　日：時給1,150円〜\n土日祝：時給1,200円〜"},"datePosted":"2026-03-06","description":"【お仕事内容】\n洋食レストランでのホール業務全般をお任せします。\n主なお仕事は、お客様を席へご案内したり、注文を聞いたり、できたてのお料理を運んだりすること。\n未経験の方にも丁寧に教えるので、安心してスタートできます！\n\n\n■お仕事の流れ🍽️\n1：ご案内・オーダー\nお客様をお席へご案内し、メニューの説明やオーダーを取ります。\n\n2：配膳・お会計\n美味しいお料理・デザートのご提供。笑顔でお会計まで対応します。\n\n3：店内整備\nテーブルの片付けや店内の清掃など、お客様が快適に過ごせる空間づくりをお手伝い。","directApply":true,"jobBenefits":"＊制服貸与あり\n＊まかない・食事補助あり\n＊社員登用あり\n＊深夜手当　など・・・","jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","postalCode":"939-2719","addressRegion":"富山県","streetAddress":"婦中町西ヶ丘474-11","addressCountry":"JP","addressLocality":"富山市"}},"validThrough":"2027-03-06","employmentType":"PART_TIME","salaryCurrency":"JPY","employerOverview":"愛されるお店を目指して日々営業しています。\n当店は大きなレストラン、大きなチェーン店ではありませんが、地域の方々やご来店のお客様に「美味しかった」と笑顔で言ってもらえる為に日々奮闘しております。\n一杯のコーヒーから家族がだんらん出来るお食事までリラックスできる憩いの洋食屋さんを目指しています。","jobImmediateStart":false,"applicationContact":{"url":"https://builder.jobecho.work/site/danranya01","name":"髙﨑","@type":"ContactPoint","contactType":"URL","description":"お気軽にご応募ください！\n面接日程は後日調整いたします。\n履歴書不要で楽々応募可能です！"},"hiringOrganization":{"logo":"https://danranya-fuchu.com/img/logo.png","name":"洋食だんらんや　婦中店","@type":"Organization","sameAs":"https://danranya-fuchu.com/index.html"},"experienceInPlaceOfEducation":false};
+  const s = document.createElement("script");
+  s.type = "application/ld+json";
+  s.textContent = JSON.stringify(data);
+  document.head.appendChild(s);
+})();
